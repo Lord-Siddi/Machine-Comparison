@@ -17,9 +17,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// 2. Timeout middleware (30s)
+// 2. Timeout middleware (60s)
 app.use((req, res, next) => {
-  res.setTimeout(30000, () => {
+  res.setTimeout(60000, () => {
     console.error(`[TIMEOUT] Request timed out: ${req.method} ${req.url}`);
     if (!res.headersSent) {
       res.status(503).json({ error: "Service unavailable: request timed out." });

@@ -28,10 +28,12 @@ async function fetchEquipmentCatalog() {
 // Shared comparison logic executor with proper production error handling
 async function runComparison(selectedMachine, catalog, res) {
   if (!selectedMachine) {
+    if (res.headersSent) return;
     return res.status(404).json({ error: "Selected equipment not found." });
   }
 
   if (!catalog || !Array.isArray(catalog) || catalog.length === 0) {
+    if (res.headersSent) return;
     return res.status(400).json({ error: "Catalog must be a non-empty array of equipment." });
   }
 
@@ -41,11 +43,14 @@ async function runComparison(selectedMachine, catalog, res) {
       catalog,
     });
 
+    if (res.headersSent) return;
     // Return the AI response unchanged, as required for this PoC.
     return res.status(200).json(aiResponse);
   } catch (err) {
     console.error("[compare] error:", err);
     
+    if (res.headersSent) return;
+
     // Check if it looks like a Gemini API issue vs internal error
     const isGeminiError = err.message && (
       err.message.includes("Gemini") || 
@@ -68,13 +73,21 @@ router.post("/api/equipment/:id/compare", async (req, res) => {
   try {
     const selectedMachine = await fetchMachineById(id);
     if (!selectedMachine) {
+      if (res.headersSent) return;
       return res.status(404).json({ error: `Equipment with id "${id}" not found.` });
     }
 
     const catalog = await fetchEquipmentCatalog();
-    await runComparison(selectedMachine, catalog, res);
+    const filteredCatalog = catalog.filter(
+      (m) =>
+        m.category &&
+        selectedMachine.category &&
+        m.category.trim().toLowerCase() === selectedMachine.category.trim().toLowerCase()
+    );
+    await runComparison(selectedMachine, filteredCatalog, res);
   } catch (err) {
     console.error("[compareRoute] Route /api/equipment/:id/compare failed:", err);
+    if (res.headersSent) return;
     return res.status(500).json({ error: "Internal Server Error.", details: err.message });
   }
 });
@@ -86,7 +99,13 @@ router.post("/compare", async (req, res) => {
   try {
     // A. If selectedMachine and catalog are provided directly in the request body
     if (selectedMachine && catalog) {
-      return await runComparison(selectedMachine, catalog, res);
+      const filteredCatalog = catalog.filter(
+        (m) =>
+          m.category &&
+          selectedMachine.category &&
+          m.category.trim().toLowerCase() === selectedMachine.category.trim().toLowerCase()
+      );
+      return await runComparison(selectedMachine, filteredCatalog, res);
     }
 
     // B. If an ID is provided in the request body
@@ -94,19 +113,28 @@ router.post("/compare", async (req, res) => {
     if (targetId) {
       const machine = await fetchMachineById(targetId);
       if (!machine) {
+        if (res.headersSent) return;
         return res.status(404).json({ error: `Equipment with id "${targetId}" not found.` });
       }
       const fullCatalog = await fetchEquipmentCatalog();
-      return await runComparison(machine, fullCatalog, res);
+      const filteredCatalog = fullCatalog.filter(
+        (m) =>
+          m.category &&
+          machine.category &&
+          m.category.trim().toLowerCase() === machine.category.trim().toLowerCase()
+      );
+      return await runComparison(machine, filteredCatalog, res);
     }
 
     // C. Neither provided - Bad Request
+    if (res.headersSent) return;
     return res.status(400).json({
       error: "Invalid request format.",
       details: "Please provide either 'id'/'equipmentId' or both 'selectedMachine' and 'catalog' in the request body."
     });
   } catch (err) {
     console.error("[compareRoute] Route /compare failed:", err);
+    if (res.headersSent) return;
     return res.status(500).json({ error: "Internal Server Error.", details: err.message });
   }
 });
