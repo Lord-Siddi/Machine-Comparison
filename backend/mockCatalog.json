@@ -1,120 +1,6208 @@
 [
   {
-    "id": "1",
-    "company": "Endress+Hauser",
-    "model": "PMP50",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Pressure Transmitter",
-    "measurementType": "Gauge / Absolute",
-    "pressureRange": "1 bar – 400 bar",
-    "accuracy": "±0.055%",
-    "outputSignal": "4–20 mA HART",
-    "communicationProtocols": "HART",
-    "processConnection": "Threaded, Flanged",
-    "operatingTemperature": "-40°C to +125°C (up to 400°C with seal)",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,500–$2,500"
+    "id": "EQ-0001",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "EJA35",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
   },
   {
-    "id": "2",
-    "company": "Siemens",
-    "model": "SITRANS P320/P420",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Digital Pressure Transmitter",
-    "measurementType": "Gauge / Absolute / Differential",
-    "pressureRange": "0.01 bar – 700 bar",
-    "accuracy": "±0.04–0.065%",
-    "outputSignal": "4–20 mA HART, PROFIBUS, Fieldbus",
-    "communicationProtocols": "HART, PROFIBUS PA, FOUNDATION Fieldbus",
-    "processConnection": "EN/ASME/JIS flanges",
-    "operatingTemperature": "-40°C to +100°C",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,500–$2,800"
-  },
-  {
-    "id": "6",
-    "company": "Emerson",
-    "model": "Rosemount 3051",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Pressure & Differential Pressure Transmitter",
-    "measurementType": "Gauge / Absolute / Differential",
-    "pressureRange": "0.1 inH2O – 689 bar",
-    "accuracy": "±0.025–0.05%",
-    "outputSignal": "4–20 mA HART, WirelessHART, Fieldbus",
-    "communicationProtocols": "HART, WirelessHART, Fieldbus, PROFIBUS",
-    "processConnection": "Coplanar, threaded, flanged",
-    "operatingTemperature": "-40°C to +120°C",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,800–$3,000"
-  },
-  {
-    "id": "7",
-    "company": "ABB",
-    "model": "PGS300/266 Series",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Gauge/Absolute/Differential Pressure Transmitter",
-    "measurementType": "Gauge / Absolute / Differential",
-    "pressureRange": "0.3 kPa – 42,000 kPa (6000 psi)",
-    "accuracy": "±0.04–0.075%",
-    "outputSignal": "4–20 mA HART, Fieldbus, PROFIBUS",
-    "communicationProtocols": "HART, Fieldbus, PROFIBUS",
-    "processConnection": "Flanged, threaded, diaphragm seals",
-    "operatingTemperature": "-40°C to +120°C",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,500–$2,500"
-  },
-  {
-    "id": "8",
+    "id": "EQ-0002",
     "company": "Honeywell",
-    "model": "SmartLine STA700",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Absolute/Gauge/Differential Pressure Transmitter",
-    "measurementType": "Gauge / Absolute / Differential",
-    "pressureRange": "0–500 psia (35 bar)",
-    "accuracy": "±0.04–0.055%",
-    "outputSignal": "4–20 mA HART, DE",
-    "communicationProtocols": "HART, DE",
-    "processConnection": "Threaded, flanged",
-    "operatingTemperature": "-40°C to +125°C",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,500–$2,500"
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STT42",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
   },
   {
-    "id": "9",
+    "id": "EQ-0003",
     "company": "Yokogawa",
-    "model": "EJX530A/EJA530E",
-    "category": "Pressure Transmitter",
-    "instrumentType": "Absolute/Gauge Pressure Transmitter",
-    "measurementType": "Gauge / Absolute",
-    "pressureRange": "0.02 MPa – 50 MPa (290–7200 psi)",
-    "accuracy": "±0.04%",
-    "outputSignal": "4–20 mA HART, BRAIN, Fieldbus, PROFIBUS",
-    "communicationProtocols": "HART, BRAIN, Fieldbus, PROFIBUS",
-    "processConnection": "Flanged, threaded",
-    "operatingTemperature": "-40°C to +120°C",
-    "explosionProtection": "ATEX, IECEx, FM, CSA",
-    "priceRange": "$1,600–$2,600"
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "YTA235",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
   },
   {
-    "id": "3",
+    "id": "EQ-0004",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8705230",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0005",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "VFlow836",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0006",
     "company": "Yokogawa",
-    "model": "ADMAG AXW",
-    "category": "Flow Meter",
-    "instrumentType": "Electromagnetic Flow Meter",
-    "operatingPrinciple": "Electromagnetic",
-    "application": "Industrial process water flow",
-    "accuracy": "0.2%",
-    "processConnection": "DN2-DN400 flanged"
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "DY601",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
   },
   {
-    "id": "4",
-    "company": "Krohne",
-    "model": "OPTIFLUX 4300",
-    "category": "Flow Meter",
-    "instrumentType": "Electromagnetic Flow Meter",
-    "operatingPrinciple": "Electromagnetic",
-    "application": "General industrial liquid flow",
-    "accuracy": "0.2%",
-    "processConnection": "DN2-DN3000 flanged"
+    "id": "EQ-0007",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "Prowirl294",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0008",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "EJA633",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0009",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8705711",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0010",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "FMR945",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0011",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8705262",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0012",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8705151",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0013",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "YTA620",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0014",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "EJA708",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0015",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "SitransTH13",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0016",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "ADMAG166",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0017",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "PMC961",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0018",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "YTA845",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0019",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "644997",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0020",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "DY458",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0021",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "Liquiphant245",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0022",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "PMP890",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0023",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STD750",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0024",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "PMC684",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0025",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "Prowirl755",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0026",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "266295",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0027",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "EJA105",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0028",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "PMD398",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0029",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "SitransF313",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0030",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "TMT524",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0031",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STG701",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0032",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STemp607",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0033",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "644144",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0034",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STG85",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0035",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "SitransLR301",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0036",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "EJA971",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0037",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8705744",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0038",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "PMC659",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0039",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "SitransTH574",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0040",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STG864",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0041",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "RM8800930",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0042",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "STT645",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0043",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "SitransLR811",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0044",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "TMT237",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0045",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Transmitter",
+    "model": "ADMAG418",
+    "description": "Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0046",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "PMC908",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0047",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "RM8800456",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0048",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "Prowirl11",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0049",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "DY648",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0050",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "644723",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0051",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "VFlow425",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0052",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "PMaster462",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0053",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "RM8800105",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0054",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "SitransTH635",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0055",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "266161",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0056",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "Liquiphant265",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0057",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STT860",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0058",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "DY794",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0059",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "DY250",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0060",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "SitransTH720",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0061",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "266221",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0062",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "Promag315",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0063",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "SitransLR456",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0064",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "266647",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0065",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "YTA148",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0066",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "PMaster355",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0067",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "EJA984",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0068",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "SitransF869",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0069",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STD486",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0070",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "2051602",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0071",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STD114",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0072",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STT687",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0073",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "Prowirl993",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0074",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STT486",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0075",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "266778",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0076",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "RM8705509",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0077",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "STD97",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0078",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "266105",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0079",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "VFlow445",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0080",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Differential Pressure Transmitter",
+    "model": "RM8800246",
+    "description": "Differential Pressure Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0081",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "SitransTH293",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0082",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "RM8705379",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0083",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "Liquiphant309",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0084",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "PMaster461",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.05%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0085",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "PMaster85",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0086",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "SitransP581",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0087",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "PMaster890",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0088",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "SitransF280",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0089",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "Prowirl471",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0090",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "DY729",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0091",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "Liquiphant240",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "400 mbar\u2013700 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0092",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Gauge",
+    "model": "RM8800459",
+    "description": "Pressure Gauge designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0093",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "STT458",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0094",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "PMC244",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0095",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "SitransTH541",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0096",
+    "company": "Endress+Hauser",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "TMT366",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0097",
+    "company": "Yokogawa",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "YTA305",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.065%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0098",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "RM8800128",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0099",
+    "company": "Siemens",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "SitransLR647",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "0\u2013275 bar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0100",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "STemp506",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0101",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "STG575",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.055%",
+      "Pressure Range": "100 mbar\u2013500 mbar",
+      "Temperature Range": "-40\u00b0C to +80\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0102",
+    "company": "ABB",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "STemp308",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.06%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +85\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0103",
+    "company": "Honeywell",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "STD402",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.04%",
+      "Pressure Range": "10 mbar\u201340 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0104",
+    "company": "Emerson",
+    "category": "Pressure",
+    "subcategory": "Pressure Switch",
+    "model": "RM8800850",
+    "description": "Pressure Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.035%",
+      "Pressure Range": "1\u2013400 bar",
+      "Temperature Range": "-40\u00b0C to +125\u00b0C",
+      "Output": "4-20mA HART",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0105",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "STemp505",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN80",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0106",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "RM8705724",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN150",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0107",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "644732",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN100",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0108",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "VFlow900",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN300",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0109",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "ADMAG429",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN50",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0110",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "STT675",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN300",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0111",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "YTA903",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN25",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0112",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransP454",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN300",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0113",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "PMP342",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN80",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0114",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransTH589",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN300",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0115",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "STT644",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN50",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0116",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "STemp270",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN80",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0117",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "TMT977",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN150",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0118",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "PMaster213",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN300",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0119",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "VFlow598",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN200",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0120",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "PMP942",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN200",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0121",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransF645",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN200",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0122",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "64444",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN80",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0123",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "YTA189",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN50",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0124",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "644835",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN200",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0125",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransF890",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN200",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0126",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "266280",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN25",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0127",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "DY120",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.3%",
+      "Pipe Size": "DN50",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0128",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "EJA660",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN200",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0129",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransP978",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN80",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0130",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "STD407",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN80",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0131",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "EJA863",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.2%",
+      "Pipe Size": "DN150",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0132",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Magflow Meter",
+    "model": "SitransTH465",
+    "description": "Magflow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.15%",
+      "Pipe Size": "DN300",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0133",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "Prowirl292",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Steam",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0134",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "Promag259",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Liquid",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0135",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "SitransLR802",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Liquid",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0136",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "VFlow827",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Steam",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0137",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "SitransLR26",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Gas",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0138",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "EJA497",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Gas",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0139",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "STD978",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Liquid",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0140",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "TMT877",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Gas",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0141",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "Promag632",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Steam",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0142",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "VFlow474",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Steam",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0143",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "266433",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Gas",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0144",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "PMaster691",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Gas",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0145",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "PMC105",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Steam",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0146",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "EJA430",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Liquid",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0147",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "VFlow370",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Liquid",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0148",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "SitransP368",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Steam",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0149",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "STG633",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Steam",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0150",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "2051195",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Liquid",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0151",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "Liquiphant230",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "1%",
+      "Fluid": "Gas",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0152",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Vortex Flow Meter",
+    "model": "RM8800805",
+    "description": "Vortex Flow Meter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "0.75%",
+      "Fluid": "Steam",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0153",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "644687",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0154",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "RM8705783",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0155",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "644549",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0156",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "STG17",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "SS316",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0157",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "RM8800132",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "SS316",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0158",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "SitransTH555",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0159",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "STemp53",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0160",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "STT597",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0161",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "Promag185",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0162",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Venturi",
+    "model": "266259",
+    "description": "Venturi designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0163",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "RM8800236",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0164",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "RM8800754",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0165",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "RM8705187",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0166",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "YTA485",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0167",
+    "company": "Siemens",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "SitransTH79",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0168",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "STG370",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0169",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "PMP387",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Carbon Steel",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0170",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "STemp577",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0171",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "STT523",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "SS316",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0172",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Orifice Plate",
+    "model": "EJA526",
+    "description": "Orifice Plate designed for industrial process automation.",
+    "specifications": {
+      "Material": "Duplex SS",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0173",
+    "company": "ABB",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "STemp545",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0174",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "644428",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0175",
+    "company": "Endress+Hauser",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "Promag106",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0176",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "RM8705351",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0177",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "644142",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0178",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "STT668",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0179",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "VFlow28",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0180",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "644206",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0181",
+    "company": "Emerson",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "2051529",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0182",
+    "company": "Honeywell",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "STD621",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0183",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "ADMAG748",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0184",
+    "company": "Yokogawa",
+    "category": "Flow",
+    "subcategory": "Flow Switch",
+    "model": "ADMAG464",
+    "description": "Flow Switch designed for industrial process automation.",
+    "specifications": {
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0185",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "STD326",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0186",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "644524",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0187",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "TMT905",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0188",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "PMD289",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0189",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "PMaster962",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class B",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0190",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "266393",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0191",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "SitransP303",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0192",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "STG937",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0193",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "FMP253",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0194",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "PMC866",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0195",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "64411",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0196",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "EJA546",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0197",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "266660",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0198",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "Promag256",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0199",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "Promag569",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0200",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "ADMAG840",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0201",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "FMR917",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0202",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "2051781",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0203",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "2051828",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class B",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0204",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "RM8705518",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0205",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "YTA90",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0206",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Temperature Transmitter",
+    "model": "PMC345",
+    "description": "Temperature Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0207",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "YTA369",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0208",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "EJA86",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0209",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "SitransTH45",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0210",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "STemp43",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0211",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "PMD552",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0212",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "PMP763",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class B",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0213",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "644229",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0214",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "TMT186",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0215",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "EJA573",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0216",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "STD134",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0217",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "VFlow488",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0218",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "STemp746",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0219",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "2051470",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0220",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "SitransTH524",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0221",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "SitransLR967",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0222",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "RM8705660",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0223",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "STD616",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0224",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "RTD",
+    "model": "PMC56",
+    "description": "RTD designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0225",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STG519",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0226",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "SitransTH314",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0227",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "PMaster218",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0228",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "266788",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0229",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "266283",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class A",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0230",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STemp438",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0231",
+    "company": "Siemens",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "SitransTH537",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "Class B",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0232",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STemp478",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0233",
+    "company": "Emerson",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "644621",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0234",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "266913",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0235",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "266593",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0236",
+    "company": "ABB",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STemp471",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0237",
+    "company": "Endress+Hauser",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "Prowirl392",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type K",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0238",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STG56",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "Class A",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0239",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STD345",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0240",
+    "company": "Honeywell",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "STT735",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0241",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "EJA436",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "Type S",
+      "Accuracy": "Class B",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0242",
+    "company": "Yokogawa",
+    "category": "Temperature",
+    "subcategory": "Thermocouple",
+    "model": "ADMAG748",
+    "description": "Thermocouple designed for industrial process automation.",
+    "specifications": {
+      "Sensor": "PT100",
+      "Accuracy": "\u00b10.1\u00b0C",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0243",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "ADMAG42",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0244",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "SitransTH717",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0245",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "ADMAG541",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0246",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "RM8705480",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0247",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "SitransF295",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0248",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "644367",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0249",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "RM8705307",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0250",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "YTA229",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0251",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "FMR258",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0252",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "Prowirl348",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0253",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "YTA498",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0254",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "ADMAG557",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0255",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "266969",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0256",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "644666",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-20 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0257",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "Promag176",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0258",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "DY819",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0259",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "VFlow98",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0260",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "RM870516",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0261",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "2051277",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0262",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "RM8705425",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0263",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "STD234",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0264",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "YTA785",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0265",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "PMC73",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0266",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Radar Level Transmitter",
+    "model": "STT129",
+    "description": "Radar Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0267",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "TMT145",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0268",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "EJA415",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0269",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "PMaster727",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0270",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "644194",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0271",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "PMaster92",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0272",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "STD755",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0273",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "STT853",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0274",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "SitransP42",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0275",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "PMP467",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0276",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "STD782",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0277",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "VFlow252",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0278",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "2051580",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0279",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "644814",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0280",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "266782",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0281",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "Liquiphant432",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0282",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "RM8705348",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0283",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "644699",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0284",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Guided Wave Radar",
+    "model": "SitransLR320",
+    "description": "Guided Wave Radar designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0285",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "SitransF416",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0286",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "VFlow325",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0287",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "YTA789",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0288",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "STD769",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0289",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "SitransF347",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0290",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "644999",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-40 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0291",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "SitransTH198",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0292",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "266872",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0293",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "2051642",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0294",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "PMP552",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-70 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0295",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "PMC546",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0296",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "64490",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0297",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "2051679",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0298",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "PMP729",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-20 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0299",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Ultrasonic Level Transmitter",
+    "model": "STG245",
+    "description": "Ultrasonic Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0300",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "FMP930",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0301",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "YTA961",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0302",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "DY403",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0303",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "Prowirl247",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0304",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "FMP812",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-40 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0305",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "SitransTH97",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-20 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0306",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "STemp812",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0307",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "PMP975",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0308",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "PMD451",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0309",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Laser Level Transmitter",
+    "model": "PMC372",
+    "description": "Laser Level Transmitter designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0310",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "644407",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0311",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "SitransF285",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0312",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "PMaster441",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b13 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0313",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "YTA618",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0314",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "PMaster871",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-40 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0315",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "RM8800627",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0316",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "644599",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0317",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "FMR616",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0318",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "PMaster861",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0319",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "RM8705742",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0320",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "STT566",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-40 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0321",
+    "company": "Siemens",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "SitransLR180",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-70 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0322",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "PMC274",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0323",
+    "company": "Emerson",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "644484",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0324",
+    "company": "ABB",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "266128",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-40 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0325",
+    "company": "Honeywell",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "STT366",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b15 mm",
+      "Range": "0-20 m",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0326",
+    "company": "Endress+Hauser",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "FMP55",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b11 mm",
+      "Range": "0-20 m",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0327",
+    "company": "Yokogawa",
+    "category": "Level",
+    "subcategory": "Level Switch",
+    "model": "ADMAG538",
+    "description": "Level Switch designed for industrial process automation.",
+    "specifications": {
+      "Accuracy": "\u00b12 mm",
+      "Range": "0-70 m",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0328",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "SitransTH654",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0329",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "FMR470",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Dust",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0330",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "SitransLR780",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0331",
+    "company": "Emerson",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "RM8705478",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0332",
+    "company": "Honeywell",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "STT635",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0333",
+    "company": "ABB",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "STemp186",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0334",
+    "company": "Emerson",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "2051254",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0335",
+    "company": "Honeywell",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "STT438",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Dust",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0336",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "SitransTH660",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Dust",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0337",
+    "company": "Emerson",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "RM8705201",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0338",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "TMT149",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0339",
+    "company": "Yokogawa",
+    "category": "Analyzer",
+    "subcategory": "Gas Analyzer",
+    "model": "YTA435",
+    "description": "Gas Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0340",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "SitransLR43",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0341",
+    "company": "ABB",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "STemp770",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0342",
+    "company": "Emerson",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "RM8800565",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0343",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "FMR314",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0344",
+    "company": "ABB",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "266804",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0345",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "SitransF813",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0346",
+    "company": "Honeywell",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "STD341",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0347",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "SitransTH950",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0348",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "SitransF738",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0349",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Dust Analyzer",
+    "model": "SitransLR652",
+    "description": "Dust Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0350",
+    "company": "ABB",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "STemp777",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0351",
+    "company": "Honeywell",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "STG899",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "Modbus",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0352",
+    "company": "Honeywell",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "STT233",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0353",
+    "company": "Emerson",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "RM8800570",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Dust",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0354",
+    "company": "Yokogawa",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "EJA57",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "Modbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0355",
+    "company": "ABB",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "PMaster10",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "Moisture",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0356",
+    "company": "Siemens",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "SitransLR105",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0357",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "Prowirl650",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0358",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "FMR498",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "O2",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0359",
+    "company": "Endress+Hauser",
+    "category": "Analyzer",
+    "subcategory": "Moisture Analyzer",
+    "model": "PMP722",
+    "description": "Moisture Analyzer designed for industrial process automation.",
+    "specifications": {
+      "Measurement": "CO2",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0360",
+    "company": "Endress+Hauser",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "FMR402",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "100 kg",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0361",
+    "company": "Emerson",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "RM8705401",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "500 kg",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0362",
+    "company": "ABB",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "PMaster749",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "500 kg",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0363",
+    "company": "Endress+Hauser",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "PMC153",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "100 kg",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0364",
+    "company": "ABB",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "PMaster820",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "500 kg",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0365",
+    "company": "Honeywell",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "VFlow807",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "100 kg",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0366",
+    "company": "Emerson",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "2051812",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "500 kg",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0367",
+    "company": "ABB",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "STemp618",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "100 kg",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0368",
+    "company": "Siemens",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "SitransTH891",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "50 ton",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0369",
+    "company": "Endress+Hauser",
+    "category": "Weighing",
+    "subcategory": "Load Cell",
+    "model": "PMP611",
+    "description": "Load Cell designed for industrial process automation.",
+    "specifications": {
+      "Capacity": "100 kg",
+      "Protocol": "HART",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0370",
+    "company": "Endress+Hauser",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "Prowirl528",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "5-5000 Hz",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0371",
+    "company": "Endress+Hauser",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "Liquiphant560",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0372",
+    "company": "Honeywell",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "STD837",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0373",
+    "company": "Emerson",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "644757",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Single Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0374",
+    "company": "Endress+Hauser",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "TMT636",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP68",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0375",
+    "company": "Endress+Hauser",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "PMD728",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0376",
+    "company": "Siemens",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "SitransLR139",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "5-5000 Hz",
+      "Protocol": "HART",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "No Display"
+    }
+  },
+  {
+    "id": "EQ-0377",
+    "company": "Emerson",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "2051279",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "Modbus",
+      "IP Rating": "IP67",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0378",
+    "company": "ABB",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "STemp180",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "5-5000 Hz",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP67",
+      "Housing": "Single Compartment",
+      "Display": "Backlit"
+    }
+  },
+  {
+    "id": "EQ-0379",
+    "company": "Siemens",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "SitransP55",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "PROFIBUS PA",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "OLED"
+    }
+  },
+  {
+    "id": "EQ-0380",
+    "company": "ABB",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "266193",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "10-1000 Hz",
+      "Protocol": "4-20mA HART",
+      "IP Rating": "IP68",
+      "Housing": "Dual Compartment",
+      "Display": "LCD"
+    }
+  },
+  {
+    "id": "EQ-0381",
+    "company": "Emerson",
+    "category": "Vibration",
+    "subcategory": "Vibration Sensor",
+    "model": "RM8705436",
+    "description": "Vibration Sensor designed for industrial process automation.",
+    "specifications": {
+      "Frequency Range": "5-5000 Hz",
+      "Protocol": "FOUNDATION Fieldbus",
+      "IP Rating": "IP66",
+      "Housing": "Dual Compartment",
+      "Display": "Backlit"
+    }
   }
 ]
