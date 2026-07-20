@@ -56,7 +56,7 @@ app.get("/health", (req, res) => {
 app.use(compareRoute);
 
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
-  console.log(`Compare PoC backend running on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Compare PoC backend running on port ${PORT}`);
 });
 
