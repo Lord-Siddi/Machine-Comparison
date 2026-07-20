@@ -22,3 +22,13 @@ export async function fetchComparison(equipmentId) {
 
   return res.json();
 }
+
+export async function fetchCatalog() {
+  const res = await fetch(`${BASE_URL}/api/catalog`);
+  if (!res.ok) {
+    let message = `Failed to fetch catalog with status ${res.status}`;
+    throw new Error(message);
+  }
+  return res.json();
+}
+
