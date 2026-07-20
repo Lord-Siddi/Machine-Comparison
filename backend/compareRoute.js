@@ -111,5 +111,24 @@ router.post("/compare", async (req, res) => {
   }
 });
 
+// 3. Catalog listing route: GET /api/catalog
+router.get("/api/catalog", async (req, res) => {
+  try {
+    const catalog = await fetchEquipmentCatalog();
+    const summary = catalog.map((m) => ({
+      id: m.id,
+      company: m.company,
+      model: m.model,
+      category: m.category,
+      subcategory: m.subcategory,
+    }));
+    return res.status(200).json(summary);
+  } catch (err) {
+    console.error("[catalog] error:", err);
+    return res.status(500).json({ error: "Failed to fetch catalog list.", details: err.message });
+  }
+});
+
 module.exports = router;
+
 
