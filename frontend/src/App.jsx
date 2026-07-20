@@ -10,10 +10,10 @@ import CompareButton from "./CompareButton";
 
 // Mirrors backend/mockCatalog.json — replace with your real catalog fetch.
 const MOCK_EQUIPMENT = [
-  { id: "1", company: "Endress+Hauser", model: "PMP50", category: "Pressure Transmitter" },
-  { id: "2", company: "Siemens", model: "SITRANS P320/P420", category: "Pressure Transmitter" },
-  { id: "6", company: "Emerson", model: "Rosemount 3051", category: "Pressure Transmitter" },
-  { id: "3", company: "Yokogawa", model: "ADMAG AXW", category: "Flow Meter" },
+  { id: "EQ-0001", company: "Yokogawa", model: "EJA35", category: "Pressure Transmitter" },
+  { id: "EQ-0002", company: "Honeywell", model: "STT42", category: "Pressure Transmitter" },
+  { id: "EQ-0003", company: "Yokogawa", model: "YTA235", category: "Pressure Transmitter" },
+  { id: "EQ-0004", company: "Emerson", model: "RM8705230", category: "Pressure Transmitter" },
 ];
 
 export default function App() {
